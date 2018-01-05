@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>页面开发中</title>
+    <style>
+    
+        div{
+            font-size: 30px;
+            color: red;
+            width: 750px;
+            height: 300px;
+            position: absolute;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -375px;
+            border:1px solid #999;
+            border-radius: 5px;
+            background-color: #666;
+            
+            
+        }
+        p{
+            margin-top: 100px;
+        }
+        button{
+            width: 200px;
+            height: 80px;
+            font-size: 22px;
+            color:white;
+            border: none;
+            background-color: #04affd;
+            border-radius: 6px;
+            
+        }
+    
+    </style>
+</head>
+<body>
+   <div>
+       <p>程序员正在加班加点的开发页面，详情下回揭晓。。。。</p>
+       <button id="btn">返回上一级</button>
+   </div>
+    <script>
+    var btn=document.getElementById('btn');
+    btn.onclick=function(){
+        window.history.go(-1);
+    }
+    </script>
+</body>
+</html>

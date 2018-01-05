@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/*
+**功能：公用样式表
+**
+**/
+
+/*初始化标签样式*/
+body{
+    min-width:1220px;
+}
+*{
+    box-sizing: border-box;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd{
+    margin:0;
+    padding:0;
+
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+input,button{
+    outline: none;
+}
+/*显示设置H5标签类型:兼容老版本浏览器*/
+header,footer,nav,aside,article,section,div{
+    display: block;
+}
+/*清除浮动*/
+.clearfix:after{
+    clear:both;
+}
+.clearfix:before,.clearfix:after{
+    content: '';
+    display: table;
+}
+/*浮动*/
+.fl{float: left;}
+.fr{float: right;}
+
+
+
+/***********手机考拉海购app*/
+#topNav .app .m-notice{
+    position: absolute;
+    left: -30px;
+    top: 35px;
+    padding: 5px 5px 0;
+    display: none;
+}
+#topNav .app .noticehover{
+    display: block;
+}
+.m-notice{
+    background: #fff;
+    position: relative;
+    text-align: center;
+    color: #333;
+    border: 1px solid #dedede;
+    padding: 10px;
+    z-index: 99;
+}
+#topNavLeft2 .app .txt{
+	display: block;
+    padding: 4px 0;
+    font-size: 13px;
+    color: #e31436;
+    line-height: 18px;
+    font-weight: normal;
+}
+#topNav .app .m-notice .arrow{
+    position: absolute;
+    left: 56px;
+    top: 0;
+    right: auto;
+}
+#topNav .app .m-notice .arr{
+    top: -16px;
+    border-color: transparent transparent #e4e4e4 transparent;
+    
+}
+#topNav .app .m-notice .arr,#topNav .app .m-notice .arr1{
+    position: absolute;
+    left: 0;
+    border-width: 8px;
+    border-style: dashed dashed solid dashed;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************尾部*/
+footer{
+    margin: 0;
+    padding: 0;
+}
+.footBgWrap {
+    background: #fff;
+    border-top: 1px solid #eaeaea;
+}
+.footBgWrap .box{
+    width: 1196px;
+    margin: 0 auto;
+}
+#btmlist{
+    padding: 40px 0;
+    border-bottom: 1px solid #eaeaea;
+    zoom:1;
+}
+#btmlist li{
+    float: left;
+    width: 25%;
+}
+#btmlist li i{
+    float: left;
+    margin: 0 12px 0 0;
+}
+.u-icn,.w-icon{
+    background: url(../img/icon1.png) no-repeat;
+}
+
+.w-icon{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+.w-icon-23{
+    width: 44px;
+    height: 44px;
+    background-position: -751px 0;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#btmlist li .tit{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+#btmlist li .tit,#btmlist li .desc{
+    display: block;
+    line-height: 22px;
+    text-align: left;
+}
+#btmlist li .desc{
+    font-size: 14px;
+}
+#guideList {
+    padding: 40px 0 90px;
+
+}
+#guideList .bd_none{
+    border: none;
+}
+#guideList .clearfix>li{
+    float: left;
+    width: 130px;
+    padding: 0 0 0 25px;
+    height: 128px;
+    border-left: 1px solid #eaeaea;
+}
+.bd_none {
+    border: none;
+}
+#guideList .clearfix .first{
+    width: 260px;
+    padding-right: 40px;
+    padding-left: 30px;
+}
+#guideList .logokaola1{
+    display: block;
+    width: 220px;
+    height: 42px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    outline: none;
+    background: url(../img/zhuye/logo.png)no-repeat;
+}
+#guideList .focuson{
+    height: 32px;
+}
+#guideList .focuson .label{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+}
+#guideList .focuson .itm{
+    position: relative;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.w-icon-24{
+    width: 32px;
+    height: 32px;
+    background-position: -752px -69px;
+}
+.m-notice{
+    background: #fff;
+    position: relative;
+    text-align: center;
+    color: #333;
+    border: 1px solid #eaeaea;
+    padding: 10px;
+}
+#guideList .focuson .m-notice{
+    position: absolute;
+    left: -47px;
+    top: 27px;
+    display: none;
+
+}
+#guideList .focuson .notice-1m{
+    display: block;
+}
+#guideList .m-notice .arrow{
+    position: absolute;
+    left: 52px;
+    top: 0;
+    right: auto;
+
+}
+.m-notice-1 .arrow{
+    top: 38px;
+}
+.m-notice .arrow{
+    position: absolute;
+    top: 64px;
+    right: 0;
+}
+#guideList .m-notice .arr{
+    top: -16px;
+    border-color: transparent transparent #eaeaea transparent;
+}
+#guideList .m-notice .arr,#guideList .m-notice .arr1{
+    position: absolute;
+    left: 0;
+    border-width: 8px;
+    border-style: dashed dashed solid dashed;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+.w-icon-24-1{
+    background-position: -796px -69px;
+}
+.w-icon-24-2{
+    background-position: -840px -69px;
+}
+.w-icon:hover {
+    opacity: .7;
+    /* display:inline-block;*/
+}
+
+#guideList .clearfix>li h3{
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    margin: -4px 0 10px;
+}
+#guideList .text li a{
+    color: #333;
+    cursor: pointer;
+    font-size: 12px;
+}
+#guideList .text li a:hover{
+    text-decoration: underline;
+}
+#guideList .last{
+    margin-left: 10px;
+}
+#guideList .item{
+    width: 108px;
+    padding: 0;
+    text-align: center;
+    float: left;
+}
+#guideList .item img{
+    margin: 0 0 6px;
+}
+#guideList .item span{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*
+
+aboutNEST
+*/
+#aboutNEST ,#aboutNEST a,#aboutNEST a:hover{
+    color:#c2c2c2;
+}
+#aboutNEST {
+    position: relative;
+    padding: 20px 0;
+    background: #333;
+    line-height: 26px;
+    text-align: center;
+}
+#aboutNEST a,#aboutNEST .m-license{
+    font-size: 12px;
+}
+#aboutNEST .sep{
+    padding: 0;
+}
+#aboutNEST .m-license{
+    padding-left: 35px;
+}
+#KXY img{
+    height: 30px;
+    margin: 5px 15px 0 0;
+}
+#KXYZ img{
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+.u-shield img{
+    height: 30px;
+    margin: 5px 0 0 10px;
+}

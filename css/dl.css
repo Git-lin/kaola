@@ -1,0 +1,415 @@
+@charset "utf-8";
+.m-topnotice-img{
+    position: relative;
+    zoom: 1;
+    overflow: hidden;
+    width: 100%;
+    background: url(../img/dlye/head.png)no-repeat center top;
+    height: 84px;
+    cursor: pointer;
+}
+
+/*
+.m-topnotice-img .pic{
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+*/
+/*头部*/
+#docHead{
+    position: relative;
+    height:100%;
+    background: ##fff;
+    z-index:103;
+
+}
+#docHeadWrap{
+    position: relative;
+    zoom: 1;
+    width:1000px;
+    height:100px;
+    margin:0 auto;
+
+}
+#docHead .logokaola{
+    position: absolute;
+    left:0;
+    top:29px;
+    width:220px;
+    height:42px;
+    line-height:45px;
+    outline:none;
+    cursor: pointer;
+    z-index:9;
+    background: url(../img/zhuye/logo.gif);
+}
+#topimg{
+    position: absolute;
+    top:0;
+    left:458px;
+    height:100px;
+    width:504px;
+    background: url(../img/dlye/1.png);
+}
+/*内容*/
+main{
+    min-width: 1220px;
+}
+
+/*背景图片 */
+.login-banner{
+    position: relative;
+    width:100%;
+    height:520px;
+    margin:0 auto;
+    background: url(../img/dlye/1.jpg);
+}
+.m-loginBody{
+    position: relative;
+    width:1000px;
+    height:520px;
+    margin:0 auto;
+
+}
+.m-loginBody .hotarea{
+    position: absolute;
+    left:10px;
+    top:109px;
+    width:400px;
+    height:280px;
+
+}
+/*登录*/
+.m-loginBody .m-loginWrap{
+    position: absolute;
+    z-index:2;
+    right:40px;
+    top:48px;
+    border:1px solid #eaeaea;
+    backgound-color:#fff;
+    font-size:12px;
+    width:350px;
+   /* height:394px;*/
+    float: left;
+
+}
+/*登录头部*/
+.loginwrap .top{
+    position: relative;
+    width:350px;
+    height:52px;
+    border-bottom:1px solid #ddd;
+    background-color:#f8f8f8;
+    font-size:16px;
+    line-height:52px;
+    color: #333;
+}
+.loginwrap .top div{
+    float: left;
+    width:175px;
+    text-align: center;
+    cursor: pointer;
+    font-weight:bold;
+
+}
+.loginwrap .top .head1{
+    color: #e31436;
+}
+.loginwrap .top .line{
+    position: absolute;
+    top:17px;
+    left:175px;
+    width:0px;
+    height:20px;
+    border-right:1px solid #ddd;
+}
+.loginwrap .top .head2:hover{
+    color: #e31436;
+}
+/*手机号登录*/
+.loginbox{
+    width:350px;
+   /* height:298px;*/
+    background: #fff;
+    padding:20px 40px 15px;
+    border: 1px solid #eaeaea;
+}
+ .u-tab{
+    width:270px;
+    padding:0 0 10px 0;
+    text-align: right;
+}
+ .u-tab .tab0{
+    height:14px;
+    padding-left:4px;
+    line-height:14px;
+
+}
+ .inputbox{
+    height:34px;
+    line-height:30px;
+    border:1px solid #d5d5d5;
+    border-radius:2px;
+    font-size:12px;
+    margin-bottom:30px;
+    position: relative;
+}
+.fa-id-badge{
+    font-size:20px;
+    width:17px;
+    height:18px;
+    margin-top:8px;
+    padding:0 11px;
+
+}
+ .inputbox .u-input{
+    height:30px;
+    margin:2px 0;
+    position: relative;
+   /* float: left;*/
+    padding-left:0px;
+    line-height:30px;
+    font-size:14px;
+    font-weight:normal;
+    top:-4px;
+    margin-left:10px;
+    border:none;
+}
+.fa-close,.fa-check{
+    font-size:20px;
+    margin-top:8px;
+    margin-left:10px;
+    display: none;
+}
+ .inputbox .m-input{
+    height:30px;
+    margin:1px 0;
+    width:130px;
+    padding-left:8px;
+    line-height:30px;
+    font-size:14px;
+    font-weight:normal;
+    border:none;
+
+}
+.inp-btn{
+    position: absolute;
+    top:0px;
+    right:0px;
+    margin-left:10px;
+    height:32px;
+    width:94px;
+    line-height:32px;
+    background-color:#eee;
+    color: #333;
+    border:none;
+    border-left:1px solid #d5d5d5;
+    
+}
+.submitBtn{
+    margin-top:7px;
+    margin-bottom:10px;
+    height:36px;
+    background-color:#e31436;
+    color: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    line-height:36px;
+    font-size:14px;
+    width:100%;
+    cursor: pointer;
+    border:none;
+}
+.m-unlogin{
+    height:16px;
+    line-height:16px;
+
+}
+.m-unlogin input{
+    float: left;
+    width:14px;
+    height:14px;
+    cursor: pointer;
+    border:1px solid #aaa;
+    color: #999;
+    font-size:12px;
+}
+.m-unlogin label{
+    display: block;
+    float: left;
+    height:16px;
+    padding-left:8px;
+    font-seze:12px;
+    color: #999;
+    line-height:17px;
+    cursor: pointer;
+
+}
+.m-unlogin span{
+    float: right;
+    height:12px;
+    cursor: pointer;
+    color: #999;
+    font-size:12px;
+    line-height:16px;
+
+}
+.loginwrap .bottom{
+    width:350px;
+    height:42px;
+    padding:10px 40px;
+    border-top:1px solid #ddd;
+    background-color:#f8f8f8;
+    font-size:14px;
+}
+.loginwrap .bottom .thirdlogin{
+    float: left;
+    width:160px;
+    list-style: none;
+
+}
+.loginwrap .bottom .thirdlogin .thirdicon{
+    position: relative;
+    display: block;
+    float: left;
+    width:22px;
+    height:22px;
+    margin-right:10px;
+
+}
+ .gotoreg{
+    display: block;
+    float: right;
+    width:105px;
+    color:#e31436;
+    line-height:22px;
+    cursor: pointer;
+     position: relative;
+
+
+}
+.gotoreg .arrow{
+    height:20px;
+    width:20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+    background-color:#e31436;
+    display: block;
+    text-align: center;
+    position: absolute;
+    right:-3px;
+    bottom:2px;
+}
+/*邮箱登录*/
+.fa-envelope-o,.fa-unlock-alt2{
+    font-size:20px;
+    width:17px;
+    height:18px;
+    margin-top:8px;
+    padding:0 11px;
+
+}
+/*邮箱登录手机号登录隐藏*/
+.loginbox1{
+    display: none;
+}
+.loginbox2{
+    display: none;
+}
+/*登录隐藏*/
+.dl{
+    display:none;
+}
+/*隐藏注册*/
+.zc{
+    display:none;
+}
+/*注册*/
+
+/*注册头部*/
+.regtop{
+    width:350px;
+    height:52px;
+    padding:0 40px;
+    position: relative;
+    border-bottom:1px solid #ddd;
+    background-color:#f8f8f8;
+    font-size:16px;
+    line-height:52px;
+    color: #333;
+
+}
+/*注册内容*/
+.regtop span:first-child{
+    color: #e31436;
+    font-weight:bold;
+}
+.regtop span:last-child{
+    float: right;
+    font-size:12px;
+    cursor:pointer;
+    color:#333;
+    line-height:52px;
+}
+.regtop a{
+    color:#51b8f1;
+}
+.regtop a:hover{
+    text-decoration:underline;
+}
+.regtopinpbox{
+    margin-top:
+}
+.fur-item,.fur-item label a{
+    color: #999;
+}
+.fur-item label a:hover{
+    color:#666;
+}
+
+/*尾部*/
+footer{
+    width: 100%;
+    min-width: 1220px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+#aboutNEST{
+    background:#fff;
+    padding: 0;
+    color:#666;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+}
+#aboutNEST span{
+    margin: 0 20px;
+    
+}
+.m-license {
+	font-size: 12px;
+    color: #999;
+}
+.m-license a:hover{
+	color: #999;
+}
+#aboutNEST a span{
+	color: #999;
+}
+#KXYZ img{
+	margin-top: 5px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+.u-shield img{
+	height: 30px;
+    margin: 5px 0 0 10px;
+}
